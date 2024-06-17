@@ -1,0 +1,414 @@
+:root {
+    --yashil: #a1c927;
+    --qirmizi: #fd634d;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textag {
+    color: white;
+}
+
+.textqirmizi {
+    color: var(--qirmizi);
+}
+
+.textyasil {
+    color: var(--yashil);
+}
+
+.bgyasil {
+    background-color: var(--yashil);
+}
+
+.bgqirmizi {
+    background-color: var(--qirmizi);
+}
+
+.bgag {
+    background-color: white;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    background: url(../img/headerbg.jpg) 55% center/cover;
+}
+
+nav,
+.title {
+    position: absolute;
+    width: 100%;
+}
+
+.title {
+    bottom: 16vh;
+}
+
+nav {
+    top: 5vh;
+}
+
+.menu li a {
+    font-size: 13px;
+    font-family: "Avenir Next Rounded Std";
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 4px 0px;
+
+}
+
+h1,
+h5,
+h2,
+h4 {
+    text-transform: uppercase;
+}
+
+h1,
+h5 {
+    font-family: "Myriad Pro";
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+
+    font-size: 14px;
+
+    line-height: 22px;
+
+    font-family: "Montserrat" sans-serif;
+
+}
+
+h3 {
+
+    font-size: 24px;
+
+
+    font-family: "Open Sans";
+}
+
+h4 {
+
+    font-size: 25px;
+    line-height: 30px;
+
+    font-weight: 100;
+    font-family: "Open Sans";
+
+}
+
+h5 {
+    font-size: 1em;
+    padding: 10px 0px;
+    letter-spacing: 3px;
+}
+
+.pad10 {
+    padding: 10px;
+}
+
+.pad5 {
+    padding: 5px 0px;
+}
+
+h3 {
+    padding: 5px 0px;
+}
+
+a,
+p {
+    display: inline-block;
+    margin: 10px 0px
+}
+
+p {
+
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Proxima Nova";
+}
+
+a {
+
+    font-family: "Proxima Nova";
+}
+
+.fitnessfirst {
+    height: 50vh;
+    background: url('../img/fitnessfirst.jpg') center/cover;
+}
+
+.yourbody {
+    height: 50vh;
+    background: url('../img/yourbody.jpg') center/cover;
+}
+
+.lifestyle {
+    height: 50vh;
+    background: url('../img/lifestyle.jpg') center/cover;
+}
+
+.summerof {
+    height: 50vh;
+    background: url('../img/summerof.jpg') center/cover;
+}
+
+.grapes {
+    height: 50vh;
+    background: url('../img/grapes.jpg') center/cover;
+}
+
+.avocado {
+    height: 50vh;
+    background: url('../img/avocado.jpg') center/cover;
+}
+
+.read {
+    text-decoration: underline;
+}
+
+.padding {
+    padding: 50px 40px;
+}
+
+#parag {
+
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "Open Sans";
+}
+
+.text h2 {
+
+    text-align: left;
+    padding: 10px 30px;
+
+}
+
+.text h4 {
+
+    text-align: left;
+    padding: 0px 30px;
+
+}
+
+.text p {
+    padding: 0px 30px;
+}
+
+.textsummer {
+
+    padding: 40px 30px;
+}
+
+.vh50 {
+    min-height: 50vh;
+}
+
+.vh35 {
+    min-height: 40vh;
+}
+
+.photo {
+    min-height: 100vh;
+    background: url(../img/footer.jpg) center/cover;
+    position: relative;
+}
+
+.footertext {
+    background: url(../img/footer.jpg) center/cover;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.footertext h6 {
+    font-size: 45px;
+    padding: 240px 0 28px 0;
+}
+
+.footertext p {
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.footermain {
+    min-height: 100vh;
+    background-color: #0c1119;
+}
+
+.footermain h4 {
+
+    font-size: 15px;
+    line-height: 12px;
+
+    font-family: "Open Sans";
+}
+
+.footermain p {
+    color: #7b8f9f;
+}
+
+.rowtext {
+
+    padding: 20px 20px 0px 20px;
+}
+
+.media i {
+
+    margin: 20px 10px 0px 0px;
+
+}
+
+
+input {
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    height: 50px;
+
+    margin: 20px 0px 0px 20px;
+}
+
+#name,
+#submit {
+    width: 30%;
+}
+
+#email {
+    width: 60%;
+}
+
+input::placeholder {
+    padding: 0px 0px 0px 5px;
+}
+
+@media only screen and (min-width: 780px) {
+
+
+    header {
+        text-align: initial;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    .menu,
+    .logo {
+        position: absolute;
+    }
+
+    .logo {
+        left: 5vw;
+    }
+
+    .menu {
+        right: 0;
+        top: 2vh;
+    }
+
+    .menu li {
+        display: inline-block;
+        padding: 0 4vw 0 0;
+    }
+
+    .title {
+
+        width: initial;
+        left: 6.3vw;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h5 {
+        text-align: right;
+    }
+
+    .container {
+        max-width: 1088px;
+        margin: auto;
+    }
+
+    .row:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .rowtext {
+        float: left;
+        width: 25%;
+        padding-top: 50px;
+
+
+    }
+
+    .rowtext:first-child {
+
+        margin-left: 157px;
+    }
+
+    .rowtext:last-child {
+
+        margin-right: 35px;
+    }
+
+    article {
+        float: left;
+        width: 25%;
+    }
+
+    .pad10 {
+        padding: 30px;
+    }
+
+    .fright {
+        float: right;
+    }
+
+    .fleft {
+        float: left;
+    }
+
+    .col66 {
+        width: 66.66%;
+    }
+
+    .col33 {
+        width: 33.33%;
+    }
+
+    .form {
+        float: right;
+
+
+        margin: 0px 380px 0px 157px;
+    }
+
+    input {
+        display: inline-block;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 3px;
+        height: 50px;
+
+        margin: 20px 0px 0px 1px;
+    }
+
+    #name, #submit {
+        width: 160px;
+    }
+
+    #email {
+        width: 330px;
+    }
+}
