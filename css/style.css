@@ -61,7 +61,7 @@ p {
 .fa-user, .fa-lemon, .fa-leaf{
    width: 100%;
     text-align: center; 
-    padding-top: 60px;
+    padding-top: 20px;
     color: var(--yashil);
 }
 .fa-leaf{color: white;}
@@ -149,7 +149,6 @@ input {
     height: 50px;
     margin: 20px 0px 0px 20px;
 }
-.fa-user, .fa-lemon, .fa-leaf{margin:  -45px 20px 0px 0px;}
 #name,#submit {width: 30%;}
 #email {width: 60%;}
 input::placeholder {padding: 0px 0px 0px 5px;}
@@ -212,6 +211,12 @@ input::placeholder {padding: 0px 0px 0px 5px;}
         border-radius: 3px;
         height: 50px;
         margin: 20px 0px 0px 1px;
+    }
+    .fa-user, .fa-lemon, .fa-leaf{
+        margin:  -45px 20px 0px 0px; 
+        float: right;
+        text-align: end; 
+        padding-top: 0px;
     }
     #name, #submit { width: 160px; }
     #email { width: 330px;}
