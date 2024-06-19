@@ -189,7 +189,6 @@ input::placeholder {padding: 0px 0px 0px 5px;}
         width: 25%;
         padding-top: 50px;
     }
-
     .rowtext:first-child { margin-left: 157px; }
     .rowtext:last-child { margin-right: 35px;}
     article {
@@ -220,4 +219,7 @@ input::placeholder {padding: 0px 0px 0px 5px;}
     }
     #name, #submit { width: 160px; }
     #email { width: 330px;}
+    .footermain{
+        min-height: 75vh;
+    }
 }
